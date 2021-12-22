@@ -131,12 +131,12 @@
     
     @font-face {
         font-family: robotoBlack;
-        src: url('/fonts/Roboto-Black.ttf');
+        src: url('../fonts/Roboto-Black.ttf');
     }
     
     @font-face {
         font-family: robotoLight;
-        src: url('/fonts/Roboto-Light.ttf');
+        src: url('../fonts/Roboto-Light.ttf');
     }
     
     @media only screen and (min-width:769px) {
