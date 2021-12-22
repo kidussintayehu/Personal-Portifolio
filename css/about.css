@@ -1,0 +1,507 @@
+    body {
+        margin: 0vw;
+        padding: 0vw;
+        background-color: rgb(245, 239, 239);
+    }
+    
+    h1 {
+        font-family: robotoBlack;
+        font-size: 2vw;
+        color: #4F4D53;
+    }
+    
+    h3 {
+        font-family: robotoBlack;
+        font-size: 1.5vw;
+        color: #E8BE02;
+        PADDING: 0;
+        margin: 0;
+        /* LINE-HEIGHT: 0PX; */
+    }
+    
+    h5 {
+        font-family: robotoBlack;
+        font-size: 64px;
+        color: #E8BE02;
+    }
+    
+    .avatars {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navigation-bar a:hover {
+        color: #E8BE02;
+        outline: none;
+    }
+    
+    .navigation-bar a:active {
+        color: #aa4104;
+    }
+    
+    .center-image {
+        /* width: 60%; */
+        height: 11vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        white-space: wrap;
+        margin: 5vw 0vw 0vw;
+    }
+    
+    .address-container {
+        margin: 0vw;
+    }
+    
+    .icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 33px;
+    }
+    
+    .icon-container a {
+        margin: 62px 19px 9px 53px;
+    }
+    
+    .fa-facebook {
+        color: white;
+        font-size: 15px;
+    }
+    
+    .fa-facebook:hover {
+        color: blue;
+    }
+    
+    .fa-instagram {
+        color: white;
+        font-size: 15px;
+    }
+    
+    .fa-instagram:hover {
+        color: rgb(216, 31, 216);
+    }
+    
+    .fa-linkedin {
+        color: white;
+        font-size: 15px;
+    }
+    
+    .fa-linkedin:hover {
+        color: blue;
+    }
+    
+    .fa-github {
+        color: white;
+        font-size: 15px;
+    }
+    
+    .fa-github:hover {
+        color: rgb(51, 23, 23);
+    }
+    
+    .fa-telegram-plane {
+        color: white;
+        font-size: 15px;
+    }
+    
+    .fa-telegram-plane:hover {
+        color: aqua;
+    }
+    
+    .band {
+        width: 100%;
+        height: 1vw;
+        background-color: #E8BE02;
+    }
+    
+    ul {
+        list-style-type: none;
+        justify-content: right;
+        align-items: right;
+    }
+    
+    .footer-secton {
+        padding: 60vw;
+        line-height: 10vw;
+    }
+    
+    @font-face {
+        font-family: robotoBlack;
+        src: url('/fonts/Roboto-Black.ttf');
+    }
+    
+    @font-face {
+        font-family: robotoLight;
+        src: url('/fonts/Roboto-Light.ttf');
+    }
+    
+    @media only screen and (min-width:769px) {
+        #logo {
+            width: 6vw;
+        }
+        .logo {
+            float: left;
+            padding: 0.2vw 7vw;
+        }
+        .center h2 {
+            font-family: robotoBlack;
+            font-size: 2vw;
+            color: #E8BE02;
+        }
+        .center h3 {
+            font-family: robotoBlack;
+            font-size: 1.3vw;
+            color: #4F4D53;
+        }
+        .general h3 {
+            font-family: robotoBlack;
+            font-size: 1.5vw;
+            color: #4F4D53;
+        }
+        h2 {
+            font-family: robotoBlack;
+            font-size: 2vw;
+            color: #4F4D53;
+            padding: 0vw 1vw 0vw 1vw;
+        }
+        h4 {
+            font-family: robotoBlack;
+            font-size: 1vw;
+            line-height: 2px;
+            color: #FFFFFF;
+        }
+        p {
+            font-family: robotoLight;
+            font-size: 1vw;
+            color: #4F4D53;
+            padding: 0 2.4vw 0 3.5vw;
+        }
+        .navigation-bar {
+            display: flex;
+            float: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .profile {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            float: left;
+            height: 100%;
+            background-color: white;
+            width: 24vw;
+            padding-top: 3vw;
+            padding-right: 6vw;
+            padding-bottom: 20vw;
+            padding-left: 5vw;
+            box-shadow: 0 1vw 2vw rgba(92, 99, 105, .2);
+        }
+        .avatar {
+            width: 10vw;
+            height: 10vw;
+            border-radius: 50%;
+            /* margin-top: -100px; */
+            margin-left: 3vw;
+            filter: grayscale(100%)
+        }
+        .main-txt {
+            width: 25vw;
+            /* height: 100%; */
+            display: block;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .center {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            white-space: wrap;
+            margin: 0vw -2vw 4vw 0.2vw;
+        }
+        .nav {
+            padding-top: 1vw;
+            position: fixed;
+            width: 100%;
+            height: 3vw;
+            background-color: #4F4D53;
+            display: block;
+            justify-content: space-around;
+            word-spacing: 3vw;
+            z-index: 10;
+        }
+        .navigation-bar a {
+            font-family: robotoBlack;
+            float: center;
+            color: white;
+            text-align: left;
+            text-decoration: none;
+            font-size: 1.3vw;
+            letter-spacing: 0.15vw;
+            padding: 0vw 4vw 0vw 0vw;
+        }
+        .personal-info {
+            display: flex;
+            background-color: rgb(245, 239, 239);
+            width: 23vw;
+            height: 27vw;
+        }
+        .address {
+            display: inline-block;
+            padding: 0vw;
+        }
+        .container {
+            margin: 16vw 5vw 0vw 1vw;
+            display: grid;
+            height: 19vw;
+            width: 50vw;
+            background-color: white;
+            float: right;
+            justify-content: space-evenly;
+            margin-bottom: -1vw;
+            box-shadow: 0 1vw 5vw rgb(92 99 105 / 20%);
+        }
+        .list-container {
+            margin: 3vw 5vw 6vw 3vw;
+        }
+        .physical-address {
+            display: flex;
+            float: left;
+        }
+        .personal-address {
+            display: flex;
+            padding: 0;
+        }
+        li {
+            font-size: 1vw;
+            padding: 1.2vw;
+        }
+        .address li {
+            font-size: 1vw;
+            padding: 1.2vw;
+        }
+        span {
+            display: inline-block;
+            border: none;
+            background-color: #4F4D53;
+            color: white;
+            cursor: pointer;
+            font-size: 1vw;
+            border-radius: 0.2vw;
+            padding: 0.1vw 0.5vw;
+        }
+        .general {
+            margin: 16vw 15vw 10vw 10vw;
+            margin: 5vw;
+            height: 19vw;
+            width: 51vw;
+            background-color: white;
+            float: right;
+            box-shadow: 0 0.5vw 2.5vw rgb(92 99 105 / 20%);
+        }
+        .general h3 {
+            padding: 2vw;
+        }
+        .footer {
+            display: flex;
+            padding: 4vw 0;
+            justify-content: space-evenly;
+            width: 100%;
+            /* height: 5vw; */
+            background-color: #4F4D53;
+            z-index: 5;
+            bottom: 0;
+            /* margin: 0vw 0vw 0vw 0vw; */
+        }
+    }
+    
+    @media only screen and (max-width:768px) {
+        #logo {
+            width: 25vw;
+        }
+        .logo {
+            float: left;
+            padding: 5vw 0vw;
+        }
+        .center h2 {
+            font-family: robotoBlack;
+            font-size: 4.9vw;
+            color: #E8BE02;
+        }
+        .center h3 {
+            font-family: robotoBlack;
+            font-size: 3vw;
+            color: #4F4D53;
+        }
+        h2 {
+            font-family: robotoBlack;
+            font-size: 2vw;
+            PADDING: 0;
+            LINE-HEIGHT: 0vw;
+            font-family: robotoBlack;
+        }
+        h4 {
+            font-family: robotoBlack;
+            font-size: 2.2vw;
+            line-height: 2px;
+            letter-spacing: 0.2vw;
+            color: #FFFFFF;
+        }
+        p {
+            font-family: robotoLight;
+            font-size: 3vw;
+            color: #4F4D53;
+            padding: 0 2.4vw 0 3.5vw;
+        }
+        .navigation-bar {
+            display: flex;
+            flex-direction: column;
+            float: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .profile {
+            /* margin: 48px; */
+            display: block;
+            justify-content: center;
+            align-items: center;
+            /* float: left; */
+            height: 75vw;
+            background-color: white;
+            width: 100%;
+            padding-top: 31vw;
+            padding-right: 10vw;
+            padding-bottom: 20vw;
+            box-shadow: 0 1vw 2vw rgba(92, 99, 105, .2);
+        }
+        .avatar {
+            width: 25vw;
+            height: 25vw;
+            border-radius: 50%;
+            /* margin-top: -100px; */
+            filter: grayscale(100%)
+        }
+        .main-txt {
+            padding: 16vw 3vw 6vw 32vw;
+            width: 25vw;
+            /* height: 100%; */
+            display: block;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .center {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            white-space: wrap;
+            margin: -8vw -1vw 7vw 3.2vw;
+            width: 36vw;
+        }
+        .nav {
+            padding-top: 1vw;
+            position: fixed;
+            width: 100%;
+            height: 22vw;
+            background-color: #4F4D53;
+            display: block;
+            justify-content: space-around;
+            z-index: 10;
+        }
+        .navigation-bar a {
+            font-family: robotoBlack;
+            float: center;
+            color: white;
+            text-align: left;
+            text-decoration: none;
+            font-size: 2.5vw;
+            letter-spacing: 0.6vw;
+        }
+        .personal-info {
+            display: flex;
+            background-color: rgb(245, 239, 239);
+            width: 58vw;
+            height: 45vw;
+            margin: 0 0 -28vw -7vw;
+        }
+        .address {
+            display: inline-block;
+        }
+        .container {
+            margin: 39px -20px 0px 0px;
+            display: flex;
+            height: 38vw;
+            width: 100%;
+            background-color: white;
+            float: right;
+            justify-content: space-evenly;
+            margin-bottom: -1vw;
+            box-shadow: 0 1vw 5vw rgb(92 99 105 / 20%);
+        }
+        .list-container {
+            margin: 3vw 5vw 6vw 3vw;
+            position: relative;
+        }
+        .physical-address {
+            display: flex;
+            float: right;
+        }
+        .personal-address {
+            display: flex;
+            padding: 0vw 1vw 10vw 1vw;
+        }
+        li {
+            font-size: 3vw;
+            padding: 1.2vw;
+        }
+        .address li {
+            font-size: 3vw;
+            padding: 1.2vw;
+        }
+        span {
+            display: inline-block;
+            border: none;
+            background-color: #4F4D53;
+            color: white;
+            cursor: pointer;
+            font-size: 3vw;
+            border-radius: 0.2vw;
+            padding: 0.1vw 0.5vw;
+        }
+        .general {
+            margin: 39px -20px 30px 0px;
+            height: 49vw;
+            width: 100%;
+            background-color: white;
+            float: right;
+            box-shadow: 0 0.5vw 2.5vw rgb(92 99 105 / 20%);
+        }
+        .general h3 {
+            font-family: robotoBlack;
+            font-size: 3.5vw;
+            color: #4F4D53;
+            padding: 2vw;
+        }
+        .footer {
+            display: flex;
+            padding: 4vw 0;
+            justify-content: space-evenly;
+            width: 110%;
+            /* height: 12vw; */
+            background-color: #4F4D53;
+            z-index: 5;
+            bottom: 0;
+            /* margin: 0vw 0vw 0vw 0vw; */
+            position: relative;
+        }
+    }

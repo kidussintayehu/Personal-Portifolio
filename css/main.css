@@ -1,0 +1,373 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 239, 239);
+}
+
+h1 {
+    font-family: robotoBlack;
+    font-size: 6vw;
+    color: #4F4D53;
+}
+
+h2 {
+    font-family: robotoBlack;
+    font-size: 5vw;
+    PADDING: 0;
+    LINE-HEIGHT: 0vw;
+}
+
+.center h2 {
+    color: #E8BE02;
+}
+
+.center h3 {
+    color: #4F4D53;
+}
+
+h3 {
+    font-family: robotoBlack;
+    color: #E8BE02;
+    PADDING: 0;
+    margin: 0;
+}
+
+h4 {
+    font-family: robotoBlack;
+    font-size: 14px;
+    line-height: 2px;
+    color: #FFFFFF;
+}
+
+h5 {
+    font-family: robotoBlack;
+    font-size: 64px;
+    color: #E8BE02;
+}
+
+p {
+    font-family: robotoLight;
+    font-size: 1vw;
+    color: #4F4D53;
+}
+
+.main-txt h3 {
+    font-size: 3vw;
+}
+
+.navigation-bar a:hover {
+    color: #E8BE02;
+    outline: none;
+}
+
+.navigation-bar a:active {
+    color: #aa4104;
+}
+
+.band {
+    width: 100%;
+    height: 2vw;
+    background-color: #E8BE02;
+}
+
+.main {
+    width: 100%;
+    height: 33vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/istockphoto-1127028057-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-txt {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 6vw 2vw 10vw 0;
+}
+
+.icon-container a {
+    margin: 0vw 5vw 0vw 0vw;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+.facebook {
+    color: rgb(63, 63, 204);
+}
+
+.instagram {
+    color: rgb(131, 70, 131);
+}
+
+.Linkedin {
+    color: rgb(62, 62, 185);
+}
+
+.github {
+    color: black;
+}
+
+.telegram {
+    color: rgb(24, 171, 230);
+}
+
+.fa-facebook {
+    color: rgb(63, 63, 204);
+    font-size: 2vw;
+}
+
+.fa-facebook:hover {
+    color: blue;
+}
+
+.fa-instagram {
+    color: rgb(131, 70, 131);
+    font-size: 2vw;
+}
+
+.fa-instagram:hover {
+    color: rgb(216, 31, 216);
+}
+
+.fa-linkedin {
+    color: rgb(62, 62, 185);
+    font-size: 2vw;
+}
+
+.fa-linkedin:hover {
+    color: blue;
+}
+
+.fa-github {
+    color: black;
+    font-size: 2vw;
+}
+
+.fa-github:hover {
+    color: rgb(51, 23, 23);
+}
+
+.fa-telegram-plane {
+    color: rgb(24, 171, 230);
+    font-size: 2vw;
+}
+
+.fa-telegram-plane:hover {
+    color: aqua;
+}
+
+.avatars {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 12vw;
+    height: 14vw;
+    border-radius: 50%;
+    margin-top: -8vw;
+    filter: grayscale(100%);
+}
+
+.center {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    white-space: wrap
+}
+
+.footer {
+    display: flex;
+    padding: 4vw 0;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #4F4D53;
+    z-index: 5;
+    bottom: 0;
+}
+
+.footer-secton {
+    padding: 5vw;
+    line-height: 1vw;
+}
+
+.label {
+    line-height: 15px;
+}
+
+.fa-phone-square-alt {
+    color: green;
+    font-size: 20px;
+}
+
+.footer i {
+    font-size: 1vw;
+    color: white;
+}
+
+@font-face {
+    font-family: robotoBlack;
+    src: url('/fonts/Roboto-Black.ttf');
+}
+
+@font-face {
+    font-family: robotoLight;
+    src: url('/fonts/Roboto-Light.ttf');
+}
+
+@media only screen and (min-width:769px) {
+    #logo {
+        width: 7vw;
+    }
+    .logo {
+        float: left;
+        padding: 0.2vw 7vw;
+    }
+    .nav {
+        position: fixed;
+        padding-top: 1vw;
+        width: 100%;
+        height: 3vw;
+        background-color: #4F4D53;
+        display: block;
+        justify-content: space-around;
+        word-spacing: 3vw;
+        z-index: 10;
+    }
+    .navigation-bar {
+        float: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0vw 0vw 0vw -5vw;
+    }
+    .navigation-bar a {
+        font-family: robotoBlack;
+        float: center;
+        color: white;
+        text-align: left;
+        text-decoration: none;
+        font-size: 1.2vw;
+        letter-spacing: 0.15vw;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #logo {
+        width: 25vw;
+    }
+    .logo {
+        float: left;
+        padding: 5vw 0vw;
+    }
+    .nav {
+        padding-top: 1vw;
+        position: fixed;
+        width: 100%;
+        height: 19vw;
+        background-color: #4F4D53;
+        display: block;
+        justify-content: space-around;
+        z-index: 10;
+    }
+    .navigation-bar {
+        display: flex;
+        flex-direction: column;
+        float: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        /* margin: -32vw 0vw 0vw 4vw; */
+        transform: translate(-50%, -50%);
+    }
+    .navigation-bar a {
+        font-family: robotoBlack;
+        float: center;
+        color: white;
+        text-align: left;
+        text-decoration: none;
+        font-size: 2.5vw;
+        letter-spacing: 0.6vw;
+        margin: -33vw ​0vw 0vw 0vw;
+    }
+    .main {
+        width: 110%;
+        height: 109vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url("/images/istockphoto-1127028057-612x612.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main h1 {
+        margin: 20vw 0vw 0vw 0vw;
+        font-size: 10vw;
+    }
+    .avatar {
+        width: 38vw;
+        height: 38vw;
+        border-radius: 50%;
+        margin-top: -17vw;
+        filter: grayscale(100%);
+    }
+    .center {
+        padding: 10vw 0vw 10vw 0vw;
+    }
+    .center h2 {
+        font-size: 7vw;
+        padding: 0vw 0vw 3vw 0vw;
+    }
+    .center h3 {
+        font-size: 3.3vw;
+    }
+    .icon-container {
+        font: 5vw;
+    }
+    .fa-facebook {
+        font-size: 5vw;
+    }
+    .fa-instagram {
+        font-size: 5vw;
+    }
+    .fa-linkedin {
+        font-size: 5vw;
+    }
+    .fa-github {
+        font-size: 5vw;
+    }
+    .fa-telegram-plane {
+        font-size: 5vw;
+    }
+    .footer {
+        width: 110%;
+    }
+    .band {
+        width: 110%
+    }
+    h4 {
+        font-size: 2vw;
+    }
+}

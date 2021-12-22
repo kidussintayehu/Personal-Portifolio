@@ -1,0 +1,168 @@
+            @media only screen and (min-width:769px) {
+                .submitBtn:hover {
+                    background-color: #b89c23;
+                }
+                .general p {
+                    padding: 0 0 0 3vw;
+                }
+                .general {
+                    display: flex;
+                    height: 58vw;
+                    width: 100vw;
+                    background-color: white;
+                    float: right;
+                    box-shadow: 0 10px 25px rgb(92 99 105 / 20%);
+                    flex-direction: column;
+                }
+                .form {
+                    margin: -6px;
+                    padding: 0px 0px 0px 33px;
+                }
+                .inputContainer {
+                    position: relative;
+                    height: 4vw;
+                    width: 90%;
+                    margin-bottom: 0vw;
+                    margin-top: 0vw;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .label {
+                    font-family: robotoLight;
+                    font-size: 1vw;
+                    color: #4F4D53;
+                }
+                .input {
+                    position: absolute;
+                    height: 100%;
+                    margin: -1vw 7vw;
+                    width: 50%;
+                    font-size: 4vw;
+                    padding: 0vw 2vw;
+                    background: none;
+                    z-index: 1;
+                    outline: 0;
+                    border-width: 0 0 0.2vw;
+                    border-color: #E8BE02;
+                }
+                .input:focus {
+                    border-color: #b89c23;
+                }
+                 ::placeholder {
+                    color: transparent;
+                }
+                .input:focus {
+                    top: 0vw;
+                    left: 0vw;
+                    z-index: 10;
+                    font-size: 1vw;
+                    font-weight: 600;
+                    color: purple;
+                }
+                .input:not(:placeholder-shown) {
+                    top: 0vw;
+                    left: 0vw;
+                    z-index: 10;
+                    font-size: 1vw;
+                    font-weight: 600;
+                }
+                .submitBtn {
+                    display: block;
+                    padding: 0.5vw 1vw;
+                    border: none;
+                    background-color: #E8BE02;
+                    border-radius: 1vw;
+                    font-size: 1.2vw;
+                    margin: 0vw 9vw 0vw 0vw;
+                    float: right;
+                }
+                .center {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    white-space: wrap;
+                    margin: -36px -39px 34px 3px;
+                }
+            }
+            
+            @media only screen and (max-width:768px) {
+                .submitBtn:hover {
+                    background-color: #b89c23;
+                }
+                .general p {
+                    padding: 0 0 0 3vw;
+                }
+                .general {
+                    /* margin: 10vw; */
+                    display: flex;
+                    height: 58vw;
+                    width: 100vw;
+                    background-color: white;
+                    float: right;
+                    box-shadow: 0 10px 25px rgb(92 99 105 / 20%);
+                    flex-direction: column;
+                }
+                .form {
+                    margin: 0;
+                    padding: 0 0 0 3vw;
+                }
+                .inputContainer {
+                    position: relative;
+                    height: 6vw;
+                    width: 90%;
+                    margin-bottom: 1vw;
+                    margin-top: 2vw;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .label {
+                    font-family: robotoLight;
+                    font-size: 3vw;
+                    color: #4F4D53;
+                }
+                .input {
+                    position: absolute;
+                    height: 100%;
+                    margin: -1vw 20vw;
+                    width: 52vw;
+                    font-size: 4vw;
+                    padding: 0vw 2vw;
+                    background: none;
+                    z-index: 1;
+                    outline: 0;
+                    border-width: 0 0 0.3vw;
+                    border-color: #E8BE02;
+                }
+                .input:focus {
+                    border-color: #b89c23;
+                }
+                 ::placeholder {
+                    color: transparent;
+                }
+                .input:focus {
+                    top: -1vw;
+                    left: 0.5vw;
+                    z-index: 10;
+                    font-size: 2vw;
+                    font-weight: 600;
+                    color: purple;
+                }
+                .input:not(:placeholder-shown) {
+                    top: 0vw;
+                    left: 1vw;
+                    z-index: 10;
+                    font-size: 3vw;
+                    font-weight: 600;
+                }
+                .submitBtn {
+                    display: block;
+                    padding: 1vw 3vw;
+                    border: none;
+                    background-color: #E8BE02;
+                    border-radius: 1vw;
+                    font-size: 2vw;
+                    margin: 1vw 15vw 0vw 0vw;
+                    float: right;
+                }
+            }

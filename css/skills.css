@@ -1,0 +1,80 @@
+@media only screen and (min-width:769px) {
+    .table-container {
+        margin: 0vw;
+        position: relative;
+        padding: 10vw 26vw 5vw 0vw;
+        margin: auto;
+        width: 0%;
+    }
+    .content-table {
+        position: relative;
+        border-collapse: collapse;
+        margin: 5vw 0;
+        font-size: 1vw;
+        /* min-width: 400px; */
+        border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    .content-table thead tr {
+        background-color: #4F4D53;
+        color: #E8BE02;
+        font-weight: bold;
+        font-size: 2vw;
+    }
+    .content-table th,
+    .content-table td {
+        padding: 1.2vw 3.5vw;
+    }
+    .content-table td {
+        border: 0.001vw solid #ddd;
+        justify-content: center;
+    }
+    .content-table tbody tr {
+        border-bottom: 0.001 solid #ddd;
+        background-color: white;
+    }
+    .content-table tbody tr:last-of-type {
+        border-bottom: 0.15vw solid #4F4D53;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .table-container {
+        position: relative;
+        padding: 4vw 68vw 13vw 0vw;
+        margin: auto;
+        width: 0%;
+    }
+    .content-table {
+        position: relative;
+        border-collapse: collapse;
+        margin: 5vw -6vw;
+        font-size: 1.9vw;
+        /* min-width: 400px; */
+        border-radius: 1.5vw 1.5vw 1.5vw 1.5vw;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    .content-table thead tr {
+        background-color: #4F4D53;
+        color: #E8BE02;
+        font-weight: bold;
+        font-size: 2.5vw;
+    }
+    .content-table th,
+    .content-table td {
+        padding: 1.5vw 4vw;
+    }
+    .content-table td {
+        border: 0.001vw solid #ddd;
+        justify-content: center;
+    }
+    .content-table tbody tr {
+        border-bottom: 0.001 solid #ddd;
+        background-color: white;
+    }
+    .content-table tbody tr:last-of-type {
+        border-bottom: 0.5vw solid #4F4D53;
+    }
+}
