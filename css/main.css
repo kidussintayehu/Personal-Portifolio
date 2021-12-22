@@ -77,7 +77,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("/images/istockphoto-1127028057-612x612.jpg");
+    background-image: url("../images/istockphoto-1127028057-612x612.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -227,12 +227,12 @@ p {
 
 @font-face {
     font-family: robotoBlack;
-    src: url('/fonts/Roboto-Black.ttf');
+    src: url('../fonts/Roboto-Black.ttf');
 }
 
 @font-face {
     font-family: robotoLight;
-    src: url('/fonts/Roboto-Light.ttf');
+    src: url('../fonts/Roboto-Light.ttf');
 }
 
 @media only screen and (min-width:769px) {
@@ -318,7 +318,7 @@ p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url("/images/istockphoto-1127028057-612x612.jpg");
+        background-image: url("../images/istockphoto-1127028057-612x612.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
